@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body{background-color:hsla(270,76%,43%,0.12);}
+.line{
+border: 1px solid;
+  height:1000px;
+   position: absolute;
+   left: 347px;
+   margin-left: -3px;
+   top:0;
+
+}
+hr.a{
+border: 1px solid;
+width:25%;
+margin-left: 0px;
+margin-top: 100px;
+}
+hr.b{
+  border: 1px solid;
+  width: 25%;
+  margin-left:0px ;
+  margin-top: 85px;
+}
+hr.c{
+  border: 1px solid;
+width: 25%;
+margin-left: 0px;
+margin-top: 85px;
+}
+hr.d{
+  border: 1px solid;
+  width: 25%;
+  margin-left: 0px;
+  margin-top: 85px;
+}
+.Ra{
+
+  font-family:Damion;
+  font-style: Regular;
+  width: 400;
+  font-size: 96px;
+  line-height: 110.4px;
+  line-height: 115%;
+  align-items: left;
+  vertical-align: top;
+   word-spacing:27px;
+   color: #000000;
+   border-radius: #1035b8;
+
+}
