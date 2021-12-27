@@ -90,3 +90,35 @@ hr.d {
   padding-top: 30px;
  height: 30px;
 }
+
+.ht{
+
+  line-height: 43px;
+ position: absolute;
+  margin-left: 395px;
+top:50px ;
+width:830px ;
+font-family: Yesteryear;
+font-style: normal;
+font-weight: normal;
+font-size: 37px;
+
+line-height: 115%;
+align-items: center;
+color: rgba(0,0,0,0.25);
+}
+.me{
+  position: absolute;
+  width: 830px;
+  height: 1150px;
+  left: 395px;
+  top:1px;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 104px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
