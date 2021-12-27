@@ -1,49 +1,92 @@
-body{background-color:hsla(270,76%,43%,0.12);}
-.line{
-border: 1px solid;
-  height:1000px;
-   position: absolute;
-   left: 347px;
-   margin-left: -3px;
-   top:0;
+body {
+  background-color: hsla(270, 76%, 43%, 0.12);
 
 }
-hr.a{
-border: 1px solid;
-width:25%;
-margin-left: 0px;
-margin-top: 100px;
-}
-hr.b{
+.line {
   border: 1px solid;
-  width: 25%;
-  margin-left:0px ;
-  margin-top: 85px;
+  height: 100%;
+  position: absolute;
+  left: 347px;
+  margin-left: -3px;
+  top: 0;
+
 }
-hr.c{
+hr.a {
   border: 1px solid;
-width: 25%;
-margin-left: 0px;
-margin-top: 85px;
-}
-hr.d{
-  border: 1px solid;
-  width: 25%;
+  width: 12.4%;
   margin-left: 0px;
-  margin-top: 85px;
+  margin-top: 110px;
 }
-.Ra{
+hr.b {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.c {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.d {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.Ra {
+  font-family: Damion;
 
-  font-family:Damion;
-  font-style: Regular;
-  width: 400;
   font-size: 96px;
-  line-height: 110.4px;
-  line-height: 115%;
-  align-items: left;
-  vertical-align: top;
-   word-spacing:27px;
-   color: #000000;
-   border-radius: #1035b8;
 
+  align-items: left;
+
+  color: #000000;
+  text-shadow: 2px 2px #1035b8;
+}
+.Web {
+  font-family: Copse;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  height: 0px;
+}
+.AB {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.Po {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  text-align: left;
+  line-height: 80px;
+  padding-left: 10px;
+  padding-top: 50px;
+  height: 30px;
+}
+.Bl {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.con{
+  font-family: Courier Prime;
+  font-size: 60px;
+
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+ height: 30px;
 }
