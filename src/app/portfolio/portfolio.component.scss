@@ -1,0 +1,120 @@
+body {
+  background-color: hsla(270, 76%, 43%, 0.12);
+  overflow: hidden;
+}
+.line {
+  border: 1px solid;
+  height: 100%;
+  position: absolute;
+  left: 347px;
+  margin-left: -3px;
+  top: 0;
+}
+hr.a {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 110px;
+}
+hr.b {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.c {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.d {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.Ra {
+  padding: 2px;
+  font-family: Damion;
+
+  font-size: 116px;
+
+  align-items: left;
+
+  color: #000000;
+  text-shadow: 2px 2px #1035b8;
+  line-height: 80px;
+  padding-top: 100px;
+}
+.Web {
+  padding: 10px;
+  font-family: Copse;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  height: 1px;
+  padding-left: 50px;
+  line-height: 100px;
+}
+.AB {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.Po {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  text-align: left;
+  line-height: 80px;
+  padding-left: 10px;
+  padding-top: 50px;
+  height: 30px;
+}
+.Bl {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.con {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.project {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  left: 1250px;
+  top: 214px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  position: absolute;
+  width: 809px;
+  height: 160px;
+  left: 25px;
+  top: 200px;
+  background: rgba(198, 201, 210, 0.03);
+}
+.heart{
+  position: absolute;
+
+
+  left:230px;
+  top: -15px;
+}
