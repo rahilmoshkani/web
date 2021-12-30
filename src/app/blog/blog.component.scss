@@ -1,0 +1,233 @@
+body {
+  background-color: hsla(270, 76%, 43%, 0.12);
+  overflow: hidden;
+}
+.line {
+  border: 1px solid;
+  height: 100%;
+  position: absolute;
+  left: 347px;
+  margin-left: -3px;
+  top: 0;
+}
+hr.a {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 110px;
+}
+hr.bb {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.c {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+hr.d {
+  border: 1px solid;
+  width: 12.4%;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.Ra {
+  padding: 2px;
+  font-family: Damion;
+
+  font-size: 116px;
+
+  align-items: left;
+
+  color: #000000;
+  text-shadow: 2px 2px #1035b8;
+  line-height: 80px;
+  padding-top: 100px;
+}
+.Web {
+  padding: 10px;
+  font-family: Copse;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  height: 1px;
+  padding-left: 50px;
+  line-height: 100px;
+}
+.AB {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.Po {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  text-align: left;
+  line-height: 80px;
+  padding-left: 10px;
+  padding-top: 50px;
+  height: 30px;
+}
+
+.Bl {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.con {
+  font-family: Courier Prime;
+  font-size: 60px;
+
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 30px;
+}
+.ht {
+  line-height: 43px;
+  position: absolute;
+  margin-left: 395px;
+  top: 30px;
+  width: 830px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+
+  line-height: 115%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.favorits {
+  position: absolute;
+  width: 1047px;
+  height: 1255px;
+  left: 390px;
+  top: 270px;
+
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 115%;
+  color: #000000;
+}
+.h1 {
+  position: absolute;
+  width: 830px;
+  height: 1600px;
+  left: 1050px;
+  top: -450px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.pbh {
+  line-height: 43px;
+  position: absolute;
+  margin-left: 395px;
+  top: 360px;
+  width: 830px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+
+  line-height: 115%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.A {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+  float: center;
+  max-width: 100%;
+  left: 500px;
+  top: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+.b {
+  font-size: 50px;
+  font-family: Copse;
+  position: absolute;
+  width: 1000px;
+  height: 150px;
+  left: 35px;
+  top: 300px;
+  background: rgba(198, 201, 210, 0.03);
+}
+.natur {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+  float: center;
+  max-width: 100%;
+  left: 1200px;
+  top: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+.na {
+  font-size: 50px;
+  font-family: Copse;
+  position: absolute;
+  width: 1000px;
+  height: 150px;
+  left: 35px;
+  top: 300px;
+  background: rgba(198, 201, 210, 0.03);
+}
+.text {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+  float: center;
+  max-width: 100%;
+  left: 1900px;
+  top: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+.te {
+  font-size: 50px;
+  font-family: Copse;
+  position: absolute;
+  width: 1000px;
+  height: 150px;
+  left: 35px;
+  top: 300px;
+  background: rgba(198, 201, 210, 0.03);
+}
