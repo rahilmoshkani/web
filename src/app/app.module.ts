@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { NatureComponent } from './nature/nature.component';
 import { TextphotoComponent } from './textphoto/textphoto.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TextphotoComponent } from './textphoto/textphoto.component';
     BlogComponent,
     CookingComponent,
     NatureComponent,
-    TextphotoComponent
+    TextphotoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
