@@ -9,6 +9,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { NatureComponent } from './nature/nature.component';
+import { TextphotoComponent } from './textphoto/textphoto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NatureComponent } from './nature/nature.component';
     PortfolioComponent,
     BlogComponent,
     CookingComponent,
-    NatureComponent
+    NatureComponent,
+    TextphotoComponent
   ],
   imports: [
     BrowserModule,
