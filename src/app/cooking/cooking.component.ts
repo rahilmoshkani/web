@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Photos} from './imgcooking';
 
 @Component({
   selector: 'app-cooking',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cooking.component.scss']
 })
 export class CookingComponent implements OnInit {
+  photos=Photos;
 
   constructor() { }
 

@@ -8,6 +8,7 @@ import { FirstpageComponent } from './firstpage/firstpage.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
 import { CookingComponent } from './cooking/cooking.component';
+import { NatureComponent } from './nature/nature.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CookingComponent } from './cooking/cooking.component';
     FirstpageComponent,
     PortfolioComponent,
     BlogComponent,
-    CookingComponent
+    CookingComponent,
+    NatureComponent
   ],
   imports: [
     BrowserModule,
