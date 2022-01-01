@@ -1,3 +1,4 @@
+import { TextphotoComponent } from './textphoto/textphoto.component';
 import { NatureComponent } from './nature/nature.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { BlogComponent } from './blog/blog.component';
@@ -14,7 +15,8 @@ const routes: Routes = [
  {path:'portfolio',component:PortfolioComponent},
  {path:'blog',component:BlogComponent},
  {path:'cooking',component:CookingComponent},
- {path:'nature',component:NatureComponent}
+ {path:'nature',component:NatureComponent},
+ {path:'textphoto',component:TextphotoComponent}
 
 
 ];

@@ -1,1 +1,11 @@
-<p>textphoto works!</p>
+<div class="row">
+  <div class="cook" *ngFor="let photo of photos">
+    <img src="{{ photo.Url }}" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <i class="fa">&#xf004;</i>
+  </div>
+</div>
