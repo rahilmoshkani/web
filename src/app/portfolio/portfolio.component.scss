@@ -46,6 +46,10 @@ hr.d {
   text-shadow: 2px 2px #1035b8;
   line-height: 80px;
   padding-top: 100px;
+  cursor: pointer;
+}
+.Ra:hover {
+  text-shadow: 2px 2px rgb(126, 245, 90);
 }
 .Web {
   padding: 10px;
@@ -56,6 +60,7 @@ hr.d {
   height: 1px;
   padding-left: 50px;
   line-height: 100px;
+  cursor: pointer;
 }
 .AB {
   font-family: Courier Prime;
@@ -65,6 +70,10 @@ hr.d {
   padding-left: 50px;
   padding-top: 30px;
   height: 30px;
+  cursor: pointer;
+}
+.AB:hover{
+  color: rgb(42, 100, 25);
 }
 .Po {
   font-family: Courier Prime;
@@ -75,6 +84,10 @@ hr.d {
   padding-left: 10px;
   padding-top: 50px;
   height: 30px;
+  cursor: pointer;
+}
+.po:hover{
+  color: rgb(42, 100, 25);
 }
 .Bl {
   font-family: Courier Prime;
@@ -84,6 +97,10 @@ hr.d {
   padding-left: 50px;
   padding-top: 30px;
   height: 30px;
+  cursor: pointer;
+}
+.Bl:hover{
+  color: rgb(42, 100, 25);
 }
 .con {
   font-family: Courier Prime;
@@ -93,6 +110,10 @@ hr.d {
   padding-left: 50px;
   padding-top: 30px;
   height: 30px;
+  cursor: pointer;
+}
+.con:hover{
+  color: rgb(42, 100, 25);
 }
 .project {
   position: absolute;

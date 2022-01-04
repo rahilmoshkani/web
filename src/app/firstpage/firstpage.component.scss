@@ -1,7 +1,6 @@
-
 body {
   background-color: hsla(270, 76%, 43%, 0.12);
- overflow:hidden;
+  overflow: hidden;
 }
 .line {
   border: 1px solid;
@@ -10,7 +9,6 @@ body {
   left: 347px;
   margin-left: -3px;
   top: 0;
-
 }
 hr.a {
   border: 1px solid;
@@ -39,15 +37,19 @@ hr.d {
 .Ra {
   padding: 2px;
   font-family: Damion;
+  cursor: pointer;
 
   font-size: 116px;
 
   align-items: left;
 
   color: #000000;
-  text-shadow: 2px 2px #1035b8;
+  text-shadow: 2px 2px #4068f8;
   line-height: 80px;
   padding-top: 100px;
+}
+.Ra:hover {
+  text-shadow: 2px 2px rgb(126, 245, 90);
 }
 .Web {
   padding: 10px;
@@ -58,8 +60,10 @@ hr.d {
   height: 1px;
   padding-left: 50px;
   line-height: 100px;
-
+  visibility: unset;
+  cursor: pointer;
 }
+
 .AB {
   font-family: Courier Prime;
   font-size: 60px;
@@ -68,6 +72,11 @@ hr.d {
   padding-left: 50px;
   padding-top: 30px;
   height: 30px;
+  cursor: pointer;
+  color: #000000;
+}
+.AB:hover{
+  color: rgb(42, 100, 25);
 }
 .Po {
   font-family: Courier Prime;
@@ -78,6 +87,11 @@ hr.d {
   padding-left: 10px;
   padding-top: 50px;
   height: 30px;
+  cursor: pointer;
+
+}
+.Po:hover{
+  color: rgb(42, 100, 25);
 }
 .Bl {
   font-family: Courier Prime;
@@ -87,40 +101,46 @@ hr.d {
   padding-left: 50px;
   padding-top: 30px;
   height: 30px;
+  cursor: pointer;
 }
-.con{
+.Bl:hover{
+  color: rgb(42, 100, 25);
+}
+.con {
   font-family: Courier Prime;
   font-size: 60px;
-
 
   line-height: 80px;
   padding-left: 50px;
   padding-top: 30px;
- height: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.con:hover{
+  color: rgb(42, 100, 25);
 }
 
-.ht{
-
+.ht {
   line-height: 43px;
- position: absolute;
+  position: absolute;
   margin-left: 395px;
-top:30px ;
-width:830px ;
-font-family: Yesteryear;
-font-style: normal;
-font-weight: normal;
-font-size: 37px;
+  top: 30px;
+  width: 830px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
 
-line-height: 115%;
-align-items: center;
-color: rgba(0,0,0,0.25);
+  line-height: 115%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
 }
-.me{
+.me {
   position: absolute;
   width: 830px;
   height: 1190px;
   left: 395px;
-  top:-50px;
+  top: -50px;
   font-family: Copse;
   font-style: normal;
   font-weight: normal;
@@ -130,66 +150,67 @@ color: rgba(0,0,0,0.25);
   align-items: center;
   color: #000000;
 }
-.h1{
+.h1 {
   position: absolute;
   width: 830px;
   height: 1600px;
   left: 1130px;
-  top:-50px;
+  top: -50px;
   font-family: Yesteryear;
   font-style: normal;
   font-weight: normal;
   font-size: 37px;
 
-display: flex;
+  display: flex;
   align-items: center;
-  color: rgba(0,0,0,0.25);
+  color: rgba(0, 0, 0, 0.25);
 }
-.p{
+.p {
   position: absolute;
-   margin-left: 395px;
- top:750px ;
- width:830px ;
- font-family: Yesteryear;
- font-style: normal;
- font-weight: normal;
- font-size: 37px;
- display: flex;
+  margin-left: 395px;
+  top: 750px;
+  width: 830px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  display: flex;
 
- line-height: 115%;
- align-items: center;
- color: rgba(0,0,0,0.25);}
- .w{
-   position: absolute;
-   width: 830px;
-   height: 1324px;
-   left: 395px;
-   top:220px;
-   font-family: Copse;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 56px;
-   line-height: 115%;
-   display: flex;
-   align-items: center;
-   color: #000000;
- }
-.pbh{ line-height: 43px;
-  position: absolute;
-   margin-left: 395px;
- top:920px ;
- width:830px ;
- font-family: Yesteryear;
- font-style: normal;
- font-weight: normal;
- font-size: 37px;
-
- line-height: 115%;
- align-items: center;
- color: rgba(0,0,0,0.25);
-
+  line-height: 115%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
 }
-.ax{
+.w {
+  position: absolute;
+  width: 830px;
+  height: 1324px;
+  left: 395px;
+  top: 220px;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.pbh {
+  line-height: 43px;
+  position: absolute;
+  margin-left: 395px;
+  top: 920px;
+  width: 830px;
+  font-family: Yesteryear;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+
+  line-height: 115%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.ax {
   position: absolute;
   width: 800px;
   height: 600px;
