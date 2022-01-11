@@ -11,6 +11,11 @@ import { CookingComponent } from './cooking/cooking.component';
 import { NatureComponent } from './nature/nature.component';
 import { TextphotoComponent } from './textphoto/textphoto.component';
 import { ContactComponent } from './contact/contact.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+
 
 @NgModule({
   declarations: [
@@ -22,13 +27,28 @@ import { ContactComponent } from './contact/contact.component';
     CookingComponent,
     NatureComponent,
     TextphotoComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      }
+    })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
+
+//AOT compilation support
+export function httpTranslateLoader(http:HttpClient) {
+  return new TranslateHttpLoader(http);
+
+}
