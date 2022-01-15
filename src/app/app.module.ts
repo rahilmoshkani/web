@@ -37,7 +37,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: httpTranslateLoader,
+        useFactory: createTranslateLoader,
         deps: [HttpClient],
       }
     })
@@ -48,7 +48,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export class AppModule {}
 
 //AOT compilation support
-export function httpTranslateLoader(http:HttpClient) {
+export function createTranslateLoader(http:HttpClient) {
   return new TranslateHttpLoader(http);
 
 }

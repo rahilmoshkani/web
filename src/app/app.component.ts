@@ -9,10 +9,6 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'website';
 
-  user!:{firstName:string;lastName:string;};
-  welcome!:string;
-  usernameLable!:string;
-  passwordLable!:string;
 
   constructor(public translate:TranslateService){
     translate.addLangs(['en','fa']);
@@ -21,20 +17,6 @@ export class AppComponent {
   }
 
 
-  ngOnInit(){
-    //hardcoded example
-    this.user={firstName:'Sammy',lastName:'Shark'};
+  ngOnInit(){}
 
-    //synchronous.Also interpolate the 'firstName' parameter with a value.
-    this.welcome=this.translate.instant('welcomeMessage',{firstName:this.user.firstName});
-
-    //asynchronous - gets translation then completes.
-    this.translate.get(['login.username','login.password'])
-    .subscribe(translations=>{
-      this.usernameLable=translations['login.username'];
-      this.passwordLable=translations['login.password'];
-
-    });
-
-  }
 }
