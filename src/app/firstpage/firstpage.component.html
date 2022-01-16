@@ -1,10 +1,7 @@
 
 
 <div class="lang">
-  <h2></h2>
-<p>
-
-</p>
+  <h2>select language</h2>
 <label for="">
   <select  #langselect (change)="translate.use(langselect.value)">
     <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
