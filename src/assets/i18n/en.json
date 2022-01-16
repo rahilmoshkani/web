@@ -1,5 +1,15 @@
 {
   "Home":{
-    "a":"Rahele"
+    "aa":"select language",
+    "a":"Rahele",
+    "b":"Web Developer",
+    "bb":"About",
+    "bbb":"Portfolio",
+    "c":"Blog",
+    "cc":"Contact",
+    "ccc":"Hi,",
+    "d":"I'm Rahele Moshkani,",
+    "dd":"Web Developer",
+    "ddd":"Front-End Developer"
   }
 }
