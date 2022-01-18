@@ -4,7 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-firstpage',
   templateUrl: './firstpage.component.html',
-  styleUrls: ['./firstpage.component.scss']
+  styleUrls: ['./firstpage.component.scss','./firstpage.en.css','./firstpage.fa.css']
 })
 export class FirstpageComponent implements OnInit {
   constructor(public translate:TranslateService){
