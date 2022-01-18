@@ -30,8 +30,17 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "extractCss": true,
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "firstpage/firstpage.en.css",
+                "bundleName": "englishStyle"
+              },
+              {
+                "input": "firstpage/firstpage.fa.css",
+                "bundleName": "farsiStyle"
+              }
             ],
             "scripts": []
           },
