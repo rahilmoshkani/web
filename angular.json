@@ -33,12 +33,14 @@
             "extractCss": true,
             "styles": [
               "src/styles.scss",
+              "src/styles.scss",
               {
-                "input": "firstpage/firstpage.en.css",
-                "bundleName": "englishStyle"
+                "input": "firstpage/firstpage.en.scss",
+                "bundleName": "englishStyle",
+
               },
               {
-                "input": "firstpage/firstpage.fa.css",
+                "input": "firstpage/firstpage.fa.scss",
                 "bundleName": "farsiStyle"
               }
             ],

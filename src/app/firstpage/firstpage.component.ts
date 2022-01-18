@@ -6,14 +6,11 @@ import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-firstpage',
   templateUrl: './firstpage.component.html',
-  styleUrls: ['./firstpage.component.scss','./firstpage.en.css','./firstpage.fa.css']
+  styleUrls: ['./firstpage.component.scss']
 })
 export class FirstpageComponent implements OnInit {
   constructor(public translate:TranslateService,@Inject(Document) private document:Document){
-    translate.addLangs(['en','fa']);
-    translate.setDefaultLang('en');
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/en|fa/)? browserLang:'en');
+
   }
   changeLangage(lang:string){
     let htmlTag=this.document.getElementsByName('html')[0]as HTMLHtmlElement;
@@ -26,18 +23,18 @@ export class FirstpageComponent implements OnInit {
   changeCssFile(lang:string){
     let headTag=this.document.getElementsByTagName('head')[0] as HTMLHtmlElement;
 
-    let existingLink=this.document.getElementById('langCss') as HTMLLinkElement;
+    let existingLink=this.document.getElementById('langsCss') as HTMLLinkElement;
 
     let bundleName=lang==="fa"?
-    'farsiStyle.css':'englishStyle.css';
+    'farsiStyle.scss':'englishStyle.scss';
 
     if(existingLink){
       existingLink.href=bundleName;
     }else{
       let newLink=this.document.createElement('link');
       newLink.rel='stylesheet';
-      newLink.type='text/css';
-      newLink.id='langCss';
+      newLink.type='text/scss';
+      newLink.id='langsCss';
       newLink.href=bundleName;
       headTag.appendChild(newLink);
     }
