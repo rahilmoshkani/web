@@ -6,32 +6,32 @@ body {
   border: 1px solid;
   height: 100%;
   position: absolute;
-  left: 347px;
-  margin-left: -3px;
+  right: 347px;
+  margin-right:  -3px;
   top: 0;
 }
 hr.a {
   border: 1px solid;
   width: 12.4%;
-  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 110px;
 }
 hr.b {
   border: 1px solid;
   width: 12.4%;
-  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 100px;
 }
 hr.c {
   border: 1px solid;
   width: 12.4%;
-  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 100px;
 }
 hr.d {
   border: 1px solid;
   width: 12.4%;
-  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 100px;
 }
 .Ra {
@@ -41,7 +41,7 @@ hr.d {
 
   font-size: 116px;
 
-  align-items: left;
+  align-items: right;
 
   color: #000000;
   text-shadow: 2px 2px #f89340;
@@ -58,7 +58,7 @@ hr.d {
   font-weight: 400;
   font-style: normal;
   height: 1px;
-  padding-left: 50px;
+  padding-right: 50px;
   line-height: 100px;
   visibility: unset;
   cursor: pointer;
@@ -69,7 +69,7 @@ hr.d {
   font-size: 60px;
 
   line-height: 80px;
-  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 30px;
   height: 30px;
   cursor: pointer;
@@ -84,7 +84,7 @@ hr.d {
 
   text-align: left;
   line-height: 80px;
-  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 50px;
   height: 30px;
   cursor: pointer;
@@ -98,7 +98,7 @@ hr.d {
   font-size: 60px;
 
   line-height: 80px;
-  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 30px;
   height: 30px;
   cursor: pointer;
@@ -111,7 +111,7 @@ hr.d {
   font-size: 60px;
 
   line-height: 80px;
-  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 30px;
   height: 30px;
   cursor: pointer;
@@ -123,7 +123,7 @@ hr.d {
 .ht {
   line-height: 43px;
   position: absolute;
-  margin-left: 395px;
+  margin-right: 395px;
   top: 30px;
   width: 830px;
   font-family: Yesteryear;
@@ -139,7 +139,7 @@ hr.d {
   position: absolute;
   width: 830px;
   height: 1190px;
-  left: 395px;
+  right: 395px;
   top: -50px;
   font-family: Copse;
   font-style: normal;
@@ -154,7 +154,7 @@ hr.d {
   position: absolute;
   width: 830px;
   height: 1600px;
-  left: 1130px;
+  right: 1130px;
   top: -50px;
   font-family: Yesteryear;
   font-style: normal;
@@ -167,7 +167,7 @@ hr.d {
 }
 .p {
   position: absolute;
-  margin-left: 395px;
+  margin-right: 395px;
   top: 750px;
   width: 830px;
   font-family: Yesteryear;
@@ -184,7 +184,7 @@ hr.d {
   position: absolute;
   width: 830px;
   height: 1324px;
-  left: 395px;
+  right: 395px;
   top: 220px;
   font-family: Copse;
   font-style: normal;
@@ -198,7 +198,7 @@ hr.d {
 .pbh {
   line-height: 43px;
   position: absolute;
-  margin-left: 395px;
+  margin-right: 395px;
   top: 920px;
   width: 830px;
   font-family: Yesteryear;
@@ -214,7 +214,7 @@ hr.d {
   position: absolute;
   width: 800px;
   height: 600px;
-  left: 1400px;
+  right: 1400px;
   top: 200px;
 }
 .lang{
