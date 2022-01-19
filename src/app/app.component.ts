@@ -13,18 +13,7 @@ export class AppComponent {
 
 
   constructor(public translate:TranslateService){
-    this.translate.onLangChange.subscribe((event:LangChangeEvent)=>
-    {
-      if(event.lang=='fa')
-      {
-        this.textDir='rtl';
-      }
-      else
-      {
-        this.textDir='ltr';
-      }
-    }
-    );
+
   }
 
 
