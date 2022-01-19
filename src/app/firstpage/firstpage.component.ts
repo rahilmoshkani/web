@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService,LangChangeEvent } from '@ngx-translate/core';
 import { Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
@@ -9,7 +9,20 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./firstpage.component.scss']
 })
 export class FirstpageComponent implements OnInit {
+  textDir:string='ltr';
   constructor(public translate:TranslateService,@Inject(Document) private document:Document){
+    this.translate.onLangChange.subscribe((event:LangChangeEvent)=>
+    {
+      if(event.lang=='fa')
+      {
+        this.textDir='rtl';
+      }
+      else
+      {
+        this.textDir='ltr';
+      }
+    }
+    );
 
   }
   changeLangage(lang:string){
