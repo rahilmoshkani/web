@@ -32,17 +32,9 @@
             ],
             "extractCss": true,
             "styles": [
-              "src/styles.scss",
-              "src/styles.scss",
-              {
-                "input": "firstpage/firstpage.en.scss",
-                "bundleName": "englishStyle"
 
-              },
-              {
-                "input": "firstpage/firstpage.fa.scss",
-                "bundleName": "farsiStyle"
-              }
+              "src/styles.scss"
+
             ],
             "scripts": []
           },

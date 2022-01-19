@@ -1,5 +1,5 @@
 import { Component, TRANSLATIONS } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService,LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +8,23 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'website';
+  textDir:string='ltr';
+
 
 
   constructor(public translate:TranslateService){
-    translate.addLangs(['en','fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+    this.translate.onLangChange.subscribe((event:LangChangeEvent)=>
+    {
+      if(event.lang=='fa')
+      {
+        this.textDir='rtl';
+      }
+      else
+      {
+        this.textDir='ltr';
+      }
+    }
+    );
   }
 
 
