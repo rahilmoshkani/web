@@ -2,6 +2,7 @@ body {
   background-color: hsla(270, 76%, 43%, 0.12);
   overflow: hidden;
 }
+
 .line {
   border: 1px solid;
   height: 100%;
@@ -9,6 +10,7 @@ body {
   left: 347px;
   margin-left: -3px;
   top: 0;
+
 }
 hr.a {
   border: 1px solid;
@@ -16,12 +18,13 @@ hr.a {
   margin-left: 0px;
   margin-top: 110px;
 }
-hr.bb {
+hr.vb {
   border: 1px solid;
   width: 12.4%;
   margin-left: 0px;
   margin-top: 100px;
 }
+
 hr.c {
   border: 1px solid;
   width: 12.4%;
@@ -51,6 +54,7 @@ hr.d {
 .Ra:hover {
   text-shadow: 2px 2px rgb(126, 245, 90);
 }
+
 .Web {
   padding: 10px;
   font-family: Copse;
@@ -61,6 +65,7 @@ hr.d {
   padding-left: 50px;
   line-height: 100px;
   cursor: pointer;
+
 }
 .AB {
   font-family: Courier Prime;
@@ -86,10 +91,9 @@ hr.d {
   height: 30px;
   cursor: pointer;
 }
-.po:hover{
+.Po:hover{
   color: rgb(42, 100, 25);
 }
-
 .Bl {
   font-family: Courier Prime;
   font-size: 60px;
@@ -99,19 +103,21 @@ hr.d {
   padding-top: 30px;
   height: 30px;
   cursor: pointer;
+
 }
 .Bl:hover{
   color: rgb(42, 100, 25);
 }
-.con {
+.con{
   font-family: Courier Prime;
   font-size: 60px;
+
 
   line-height: 80px;
   padding-left: 50px;
   padding-top: 30px;
-  height: 30px;
-  cursor: pointer;
+ height: 30px;
+ cursor: pointer;
 }
 .con:hover{
   color: rgb(42, 100, 25);

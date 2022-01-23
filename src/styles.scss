@@ -1,0 +1,7 @@
+[dir = 'rtl'] {
+  @import "src/app/firstpage/firstpage-fa.scss";
+}
+
+[dir = 'ltr'] {
+  @import "src/app/firstpage/firstpage-en.scss";
+}

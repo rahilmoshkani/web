@@ -1,3 +1,13 @@
+<div class="lang">
+  <p>{{ "Home.aa" | translate }}</p>
+  <label for="">
+    <select #langselect (change)="translate.use(langselect.value)">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
+        {{ lang }}
+      </option>
+    </select>
+  </label>
+</div>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Copse&family=Courier+Prime&family=Damion&family=Volkhov&family=Yesteryear&display=swap');
@@ -7,7 +17,7 @@
   <p>&lt;body&gt;</p>
   <p>&lt;h1&gt;</p>
 </div>
-<div class="favoritss"> My Cooking</div>
+<div class="favoritss">{{"Home.g"|translate}}</div>
 <div class="h1">
   <p>&lt;h1&gt;</p>
 </div>
@@ -22,7 +32,7 @@
 
     <div class="cr">
       <p>
-        <span>{{photo.name | uppercase }}</span>
+        <span>{{photo.name | translate }}</span>
       </p>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <i class="fa">&#xf004;</i>

@@ -1,3 +1,4 @@
+import { TranslateService } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { photos } from './image';
 
@@ -8,7 +9,11 @@ import { photos } from './image';
 })
 export class NatureComponent implements OnInit {
 photos=photos;
-  constructor() { }
+constructor(public translate: TranslateService) {
+  translate.addLangs(['en', 'fa']);
+  translate.setDefaultLang('en');
+  translate.use('en');
+}
 
   ngOnInit(): void {
   }

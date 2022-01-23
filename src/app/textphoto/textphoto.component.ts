@@ -1,5 +1,7 @@
+import { TranslateService } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { photos } from './textphoto';
+
 
 @Component({
   selector: 'app-textphoto',
@@ -9,7 +11,11 @@ import { photos } from './textphoto';
 export class TextphotoComponent implements OnInit {
   photos=photos;
 
-  constructor() { }
+  constructor(public translate: TranslateService) {
+    translate.addLangs(['en', 'fa']);
+    translate.setDefaultLang('en');
+    translate.use('en');
+  }
 
   ngOnInit(): void {
   }

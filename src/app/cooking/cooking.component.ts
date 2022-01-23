@@ -1,5 +1,7 @@
+import { TranslateService } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { Photos} from './imgcooking';
+
 
 @Component({
   selector: 'app-cooking',
@@ -9,8 +11,12 @@ import { Photos} from './imgcooking';
 export class CookingComponent implements OnInit {
   photos=Photos;
 
-  constructor() { }
+  constructor(public translate: TranslateService) {
+    translate.addLangs(['en', 'fa']);
+    translate.setDefaultLang('en');
+    translate.use('en');
 
+  }
   ngOnInit(): void {
   }
 

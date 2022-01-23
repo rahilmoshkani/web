@@ -1,27 +1,46 @@
+
+<div class="lang">
+  <p>{{ "Home.aa" | translate }}</p>
+  <label for="">
+    <select #langselect (change)="translate.use(langselect.value)">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
+        {{ lang }}
+      </option>
+    </select>
+  </label>
+</div>
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Copse&family=Courier+Prime&family=Damion&family=Volkhov&family=Yesteryear&display=swap');
   </style>
 
-<div class="Ra" routerLink="/firstpage">Rahele</div>
+<div class="Ra" routerLink="/firstpage">
+  {{ "Home.a" | translate }}
+</div>
 <div class="line"></div>
-<div class="Web">Web Developer</div>
+<div class="Web">{{ "Home.b" | translate }}</div>
 <hr class="a" />
 <nav>
-<div class="AB" routerLink="/About">About</div>
+  <div class="AB" routerLink="/About">{{ "Home.bb" | translate }}</div>
 </nav>
 <hr class="b" />
-<div class="Po" routerLink="/portfolio">Portfolio</div>
+<div class="Po" routerLink="/portfolio">
+  {{ "Home.bbb" | translate }}
+</div>
 <hr class="c" />
-<div class="Bl" routerLink="/blog">Blog</div>
+<div class="Bl" routerLink="/blog">{{ "Home.c" | translate }}</div>
 <hr class="d" />
-<div class="con" routerLink="/contact">Contact</div>
+<div class="con" routerLink="/contact">
+  {{ "Home.cc" | translate }}
+</div>
+
 <div class="ht">
   <p>&lt;html&gt;</p>
   <p>&lt;body&gt;</p>
   <p>&lt;h1&gt;</p>
   </div>
 
-<div class="am">Contact me:</div>
+<div class="am">{{"Home.ggg"|translate}}</div>
 <div class="h1">
   <p>&lt;/h1&gt;</p>
 </div>
