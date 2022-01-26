@@ -11,10 +11,8 @@ import { photos } from './textphoto';
 export class TextphotoComponent implements OnInit {
   photos=photos;
 
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor() {
+
   }
 
   ngOnInit(): void {

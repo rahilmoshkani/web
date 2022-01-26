@@ -1,13 +1,4 @@
-<div class="lang">
-  <p>{{ "Home.aa" | translate }}</p>
-  <label for="">
-    <select #langselect (change)="translate.use(langselect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
-        {{ lang }}
-      </option>
-    </select>
-  </label>
-</div>
+
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Copse&family=Courier+Prime&family=Damion&family=Yesteryear&display=swap");

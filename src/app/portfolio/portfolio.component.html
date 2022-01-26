@@ -1,13 +1,3 @@
-<div class="lang">
-  <p>{{ "Home.aa" | translate }}</p>
-  <label for="">
-    <select #langselect (change)="translate.use(langselect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
-        {{ lang }}
-      </option>
-    </select>
-  </label>
-</div>
 
 
 <style>

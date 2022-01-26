@@ -7,10 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.scss'],
 })
 export class BlogComponent implements OnInit {
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor() {
+
   }
 
   ngOnInit(): void {}

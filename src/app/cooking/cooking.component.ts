@@ -11,10 +11,8 @@ import { Photos} from './imgcooking';
 export class CookingComponent implements OnInit {
   photos=Photos;
 
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor() {
+
 
   }
   ngOnInit(): void {

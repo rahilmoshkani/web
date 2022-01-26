@@ -9,10 +9,8 @@ import { photos } from './image';
 })
 export class NatureComponent implements OnInit {
 photos=photos;
-constructor(public translate: TranslateService) {
-  translate.addLangs(['en', 'fa']);
-  translate.setDefaultLang('en');
-  translate.use('en');
+constructor() {
+
 }
 
   ngOnInit(): void {

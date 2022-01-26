@@ -1,4 +1,14 @@
+<div class="card-container">
+  <div class="card-small" (click)="changeLanguage('en')">
+    <span>{{'Home.j' | translate}}</span>
+  </div>
 
+  <div class="card-small" (click)="changeLanguage('fa')">
+    <span>{{'Home.jj' | translate}}</span>
+  </div>
+</div>
+<div >
 <router-outlet></router-outlet>
+</div>
 
 

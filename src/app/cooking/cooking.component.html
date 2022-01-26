@@ -1,41 +1,34 @@
-<div class="lang">
-  <p>{{ "Home.aa" | translate }}</p>
-  <label for="">
-    <select #langselect (change)="translate.use(langselect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
-        {{ lang }}
-      </option>
-    </select>
-  </label>
-</div>
+
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Copse&family=Courier+Prime&family=Damion&family=Volkhov&family=Yesteryear&display=swap');
-  </style>
+  @import url("https://fonts.googleapis.com/css2?family=Copse&family=Courier+Prime&family=Damion&family=Volkhov&family=Yesteryear&display=swap");
+</style>
 <div class="hht">
   <p>&lt;html&gt;</p>
   <p>&lt;body&gt;</p>
   <p>&lt;h1&gt;</p>
 </div>
-<div class="favoritss">{{"Home.g"|translate}}</div>
+<div class="favoritss">{{ "Home.g" | translate }}</div>
 <div class="h1">
   <p>&lt;h1&gt;</p>
 </div>
 <div class="ppbh">
-  <p>&lt;/body&gt;<br><br>&lt;/html&gt;</p>
+  <p>&lt;/body&gt;<br /><br />&lt;/html&gt;</p>
 </div>
 
 <div class="row">
-
-  <div class="cook" *ngFor="let  photo of photos " >
-    <img src="{{ photo.Url }}"/>
+  <div class="cook" *ngFor="let photo of photos">
+    <img src="{{ photo.Url }}" />
 
     <div class="cr">
       <p>
-        <span>{{photo.name | translate }}</span>
+        <span>{{ photo.name | translate }}</span>
       </p>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
       <i class="fa">&#xf004;</i>
     </div>
   </div>
-
+</div>

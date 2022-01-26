@@ -12,10 +12,7 @@ export class FirstpageComponent implements OnInit {
 
 
 
-  constructor(public translate: TranslateService,rootRenderer:RendererFactory2) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor() {
 
 
   }

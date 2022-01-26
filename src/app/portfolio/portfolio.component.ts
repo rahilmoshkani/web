@@ -11,10 +11,8 @@ export class PortfolioComponent implements OnInit {
 
 
 
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor() {
+
 
 
   }

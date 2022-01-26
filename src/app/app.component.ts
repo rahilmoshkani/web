@@ -1,5 +1,5 @@
-import { Component, TRANSLATIONS } from '@angular/core';
-import { TranslateService,LangChangeEvent } from '@ngx-translate/core';
+import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -7,18 +7,19 @@ import { TranslateService,LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'website';
+  title:string = 'website';
 
-
-
-
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'fa']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  public changeLanguage(code: string) {
+    localStorage.setItem('locale', code);
+    window.location.reload();
   }
-
-
-  ngOnInit(){}
-
 }
+
+
+
+
+
+
+
+
+
